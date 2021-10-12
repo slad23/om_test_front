@@ -12,7 +12,7 @@ This project is a technical test to apply for a job in Optiva Media.
 	
 ## Technologies
 Project is created with:
-* Angular version: 12.2.9 
+* Angular version: 12.2.6 
 * Angular material: 12.2.9 
 * Ngrx version: 12.4.0
 * Ngx-infinite-scroll version: 10.0.1
