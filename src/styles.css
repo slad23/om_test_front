@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; color: #F6F6F6; background-color: #2C2C2C;}
+
+.mat-list-base .mat-list-item .mat-list-item-content{
+    color:#F6F6F6;
+    padding: 0!important;
+}
+
+.mat-card-header {
+    display: flex;
+    flex-direction: row;
+    height: 150px !important;
+}
+
+.mat-grid-tile-content{
+    height:50% !important;
+}

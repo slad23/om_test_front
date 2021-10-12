@@ -1,0 +1,29 @@
+<div class="container" *ngIf="card">
+    <div fxLayout="row" fxLayout.xs="column" fxLayoutGap="30px">
+
+        <div fxFlex="50">
+            <img ngClass.xs="smStyles" [src]="card | image">
+        </div>
+
+        <div fxFlex="50">
+            <h1>{{ card.name }}</h1>
+            <mat-divider></mat-divider>
+
+            <mat-list>
+                <mat-list-item> Model: {{ card.model }} </mat-list-item>
+                <mat-list-item> Model: {{ card.manufacturer }} </mat-list-item>
+                <mat-list-item> Assembler: {{ card.assembler}} </mat-list-item>
+                <mat-list-item> Price: {{ card.price }} </mat-list-item>
+                <mat-list-item> Core Clock: {{ card.coreclock }} </mat-list-item>
+                <mat-list-item> Memory Size: {{ card.memsize }} </mat-list-item>
+                <mat-list-item> Memory type: {{ card.memtype }} </mat-list-item>
+                <mat-list-item> Card Bus: {{ card.cardbus }} </mat-list-item>
+            </mat-list>
+
+            <br>
+            <button mat-raised-button color="warn" [routerLink]="['/graphics-cards']">Back to graphics card
+                list</button>
+        </div>
+
+    </div>
+</div>

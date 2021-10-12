@@ -1,0 +1,18 @@
+
+<div class="container" 
+    infiniteScroll 
+    [infiniteScrollDistance]="1" 
+    (scrolled)="onScrollDown($event)">
+
+  <h1>Graphics Card List</h1>
+  <mat-divider></mat-divider>
+  <br>
+
+  <div fxLayout="row wrap" fxLayout.xs="column" fxLayoutAlign="none" fxLayoutGap="20px" fxLayoutGap.xl="40px">
+
+    <div fxFlex="20" fxFlex.xl="15" fxFlex.lg="15" fxFlex.sm="30" *ngFor="let card of cards">
+
+      <app-cards [card]="card"></app-cards>
+    </div>
+  </div>
+</div>
