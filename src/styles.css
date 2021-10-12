@@ -17,3 +17,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; color: #F6F
 .mat-grid-tile-content{
     height:50% !important;
 }
+
+.mat-divider {
+    border-top-color: #F6F6F6;
+  }
