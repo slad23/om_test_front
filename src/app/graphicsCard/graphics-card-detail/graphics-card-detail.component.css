@@ -9,6 +9,8 @@
     width: 100%;
     margin: 0
   }
+
   .container{
-    margin:10px
+    width:95%;
+    margin: 3% auto;
 }
