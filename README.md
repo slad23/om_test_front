@@ -21,7 +21,7 @@ Project is created with:
 1. Follow the instructions of the om_test_back project's readme if it has not been done previously. You can clone it from here: https://github.com/slad23/om_test_back.git
 2. Open Visual Studio Code and the fronted project:
 * File -> Opem folder...-> select frontend project folder
-3. Open a new terminal in Visual Studio Code and install angular cli using the npm package manager (you need to instal Node.js first): npm install -g @angular/cli
+3. Open a new terminal in Visual Studio Code (Terminal -> New Terminal) and install angular cli using the npm package manager (you need to instal Node.js first): npm install -g @angular/cli
 4. Enter the following command to install all packages: npm install
 5. Enter the following command to run the project: ng serve -o
 
