@@ -16,7 +16,7 @@ Project is created with:
 * Angular material: 12.2.9 
 * Ngrx version: 12.4.0
 * Ngx-infinite-scroll version: 10.0.1
-* Ngx Flex Layout version> 12.0
+* Ngx Flex Layout version: 12.0
 	
 ## Setup
 1. Follow the instructions of the om_test_back project's readme if it has not been done previously. You can clone it from here: https://github.com/slad23/om_test_back.git
